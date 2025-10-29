@@ -1,0 +1,37 @@
+.courses-table-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.table-container {
+    width: 80%;
+    margin: 20px auto;
+}
+
+::ng-deep .filter-input {
+    display: block !important;
+    width: 75% !important;
+    margin: 0 auto !important;
+}
+
+::ng-deep .center-row {
+    text-align: center !important;
+}
+
+::ng-deep .mat-sort-header-container {
+    justify-content: center !important;
+}
+
+.addCourse {
+    margin-top: 15px;
+}
+
+::ng-deep .addCourse {
+    background-color: #1976d2 !important;
+    color: white !important;
+    border-radius: 10px !important;
+    width: 150px;
+}
